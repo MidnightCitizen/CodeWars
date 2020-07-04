@@ -1,0 +1,13 @@
+{
+  "name": "CodeWars",
+  "version": "1.0.0",
+  "description": "Training ",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
