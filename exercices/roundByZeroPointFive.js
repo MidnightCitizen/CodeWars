@@ -10,7 +10,7 @@
 function roundByZeroPointFive(n){
     const number = Math.floor(n);
     const decimal = parseInt((n % 1).toFixed(1)[2]);
-    console.log(decimal);
+
     if(0 < decimal && decimal < 3) {
         return number;
     }

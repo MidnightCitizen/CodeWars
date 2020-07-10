@@ -8,7 +8,6 @@
     "jest": "^26.1.0"
   },
   "scripts": {
-    "test": "npm run test",
-    "build": "node build/build.js"
+    "test": "jest"
   }
 }
