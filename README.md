@@ -17,10 +17,15 @@ Continuous training with problems solving from https://www.codewars.com/dashboar
 Install it locally using npm:
 
 ```
-$ npm install
+$ npm i
 ```
 
-Run the tests of this project
+Run all the tests
 ```
 $ npm run test
+```
+
+Run only one test 
+```
+$ npm test -- nametest.test.js
 ```
