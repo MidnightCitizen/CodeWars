@@ -1,7 +1,7 @@
 const autocomplete = require('../exercices/autocomplete');
 
 test('return two words from an array of five', () => {
-    expect(autocomplete('ai', ['airplane','airport','apple','ball'])).toEqual(['airplane','airport']);
+    expect(autocomplete('ai', ['airplane','airport','apple','ball', 'moon'])).toEqual(['airplane','airport']);
 });
 
 test('string should be considered empty, return empty array', () => {
